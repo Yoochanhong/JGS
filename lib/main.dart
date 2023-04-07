@@ -40,15 +40,39 @@ class MyHomePage extends StatelessWidget {
               SizedBox(
                   height: 35,
                   child: Text(
-                    "기기 목록",
+                    "지뢰 목록",
                     style: TextStyle(fontSize: 25.0),
                   )),
             ],
           ),
           Container(
-            color: Colors.red,
             width: 500,
-            height: 200,
+            height: 300,
+            child: ListView(
+              children: [
+                ListTile(
+                    title: Text("지뢰 1"),
+                    leading: Image.asset("assets/images/mine.png", width: 40)),
+                ListTile(
+                    title: Text("지뢰 2"),
+                    leading: Image.asset("assets/images/mine.png", width: 40)),
+                ListTile(
+                    title: Text("지뢰 3"),
+                    leading: Image.asset("assets/images/mine.png", width: 40)),
+                ListTile(
+                    title: Text("지뢰 4"),
+                    leading: Image.asset("assets/images/mine.png", width: 40)),
+                ListTile(
+                    title: Text("지뢰 5"),
+                    leading: Image.asset("assets/images/mine.png", width: 40)),
+                ListTile(
+                    title: Text("지뢰 6"),
+                    leading: Image.asset("assets/images/mine.png", width: 40)),
+                ListTile(
+                    title: Text("지뢰 7"),
+                    leading: Image.asset("assets/images/mine.png", width: 40)),
+              ],
+            ),
           ),
         ],
       ),
