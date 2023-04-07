@@ -30,21 +30,31 @@ class MyHomePage extends StatelessWidget {
           SizedBox(width: 20),
         ],
       ),
-      body: Center(
-        child: Column(
-          children: [
-            Container(
-              color: Colors.blue,
-              width: 500,
-              height: 400,
-            ),
-            Container(
-              color: Colors.red,
-              width: 500,
-              height: 200,
-            ),
-          ],
-        ),
+      body: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Container(
+            color: Colors.blue,
+            width: 500,
+            height: 400,
+          ),
+          Row(
+            children: [
+              SizedBox(width: 10),
+              SizedBox(
+                  height: 35,
+                  child: Text(
+                    "기기 목록",
+                    style: TextStyle(fontSize: 25.0),
+                  )),
+            ],
+          ),
+          Container(
+            color: Colors.red,
+            width: 500,
+            height: 200,
+          ),
+        ],
       ),
     );
   }
