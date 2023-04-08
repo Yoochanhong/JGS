@@ -33,7 +33,17 @@ class MyHomePage extends StatelessWidget {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Image.asset("assets/images/map.png", width: 500, height: 400),
+          Container(
+            decoration: BoxDecoration(
+              border: Border.all(color: Colors.black, width: 2.0),
+            ),
+            child: Image.asset(
+              "assets/images/map.png",
+              width: 500,
+              height: 400,
+              fit: BoxFit.fill,
+            ),
+          ),
           Row(
             children: [
               SizedBox(width: 10),
