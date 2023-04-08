@@ -74,7 +74,7 @@ class MyHomePage extends StatelessWidget {
                     ),
                   ),
                   child: ListTile(
-                    title: Text("지뢰 1"),
+                    title: Text("지뢰 1                               385629"),
                     leading: Image.asset("assets/images/mine.png", width: 40),
                   ),
                 ),
@@ -87,7 +87,7 @@ class MyHomePage extends StatelessWidget {
                     ),
                   ),
                   child: ListTile(
-                    title: Text("지뢰 2"),
+                    title: Text("지뢰 2                              346457"),
                     leading: Image.asset("assets/images/mine.png", width: 40),
                   ),
                 ),
@@ -100,7 +100,7 @@ class MyHomePage extends StatelessWidget {
                     ),
                   ),
                   child: ListTile(
-                    title: Text("깡통 1"),
+                    title: Text("깡통 1                               231424"),
                     leading: Image.asset("assets/images/can.png", width: 40),
                   ),
                 ),
@@ -113,7 +113,7 @@ class MyHomePage extends StatelessWidget {
                     ),
                   ),
                   child: ListTile(
-                    title: Text("지뢰 3"),
+                    title: Text("지뢰 3                              362396"),
                     leading: Image.asset("assets/images/mine.png", width: 40),
                   ),
                 ),
@@ -126,7 +126,7 @@ class MyHomePage extends StatelessWidget {
                     ),
                   ),
                   child: ListTile(
-                    title: Text("깡통 2"),
+                    title: Text("깡통 2                              265463"),
                     leading: Image.asset("assets/images/can.png", width: 40),
                   ),
                 ),
