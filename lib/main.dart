@@ -25,6 +25,12 @@ class MyHomePage extends StatelessWidget {
         backgroundColor: Colors.white,
         elevation: 0.0,
         leading: Icon(Icons.menu, color: Colors.black),
+        title: Center(
+          child: Text(
+            "JGS",
+            style: TextStyle(color: Colors.black),
+          ),
+        ),
         actions: [
           Icon(Icons.settings, color: Colors.black),
           SizedBox(width: 20),
