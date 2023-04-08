@@ -103,7 +103,7 @@ class MyHomePage extends StatelessWidget {
                           style: TextStyle(fontFamily: "NanumGothicCodeing"),
                         ),
                         SizedBox(width: 30),
-                        Icon(Icons.wifi, color: Colors.blue),
+                        Icon(Icons.sensors, color: Colors.red),
                       ],
                     ),
                     leading: Image.asset("assets/images/mine.png", width: 40),
