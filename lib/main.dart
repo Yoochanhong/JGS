@@ -52,13 +52,14 @@ class MyHomePage extends StatelessWidget {
           ),
           Row(
             children: [
-              SizedBox(width: 10),
+              SizedBox(width: 11),
               SizedBox(
-                  height: 35,
-                  child: Text(
-                    "지뢰 목록",
-                    style: TextStyle(fontSize: 25.0),
-                  )),
+                height: 35,
+                child: Text(
+                  "장치 목록",
+                  style: TextStyle(fontSize: 25.0),
+                ),
+              ),
             ],
           ),
           Container(
