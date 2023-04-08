@@ -57,30 +57,73 @@ class MyHomePage extends StatelessWidget {
           ),
           Container(
             width: 500,
-            height: 300,
+            height: 290,
             child: ListView(
               children: [
-                ListTile(
+                Container(
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(8.0),
+                    border: Border.all(
+                      color: Colors.black,
+                    ),
+                  ),
+                  child: ListTile(
                     title: Text("지뢰 1"),
-                    leading: Image.asset("assets/images/mine.png", width: 40)),
-                ListTile(
+                    leading: Image.asset("assets/images/mine.png", width: 40),
+                  ),
+                ),
+                SizedBox(height: 2.0),
+                Container(
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(8.0),
+                    border: Border.all(
+                      color: Colors.black,
+                    ),
+                  ),
+                  child: ListTile(
                     title: Text("지뢰 2"),
-                    leading: Image.asset("assets/images/mine.png", width: 40)),
-                ListTile(
+                    leading: Image.asset("assets/images/mine.png", width: 40),
+                  ),
+                ),
+                SizedBox(height: 2.0),
+                Container(
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(8.0),
+                    border: Border.all(
+                      color: Colors.black,
+                    ),
+                  ),
+                  child: ListTile(
                     title: Text("깡통 1"),
-                    leading: Image.asset("assets/images/can.png", width: 40)),
-                ListTile(
-                    title: Text("지뢰 4"),
-                    leading: Image.asset("assets/images/mine.png", width: 40)),
-                ListTile(
+                    leading: Image.asset("assets/images/can.png", width: 40),
+                  ),
+                ),
+                SizedBox(height: 2.0),
+                Container(
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(8.0),
+                    border: Border.all(
+                      color: Colors.black,
+                    ),
+                  ),
+                  child: ListTile(
+                    title: Text("지뢰 3"),
+                    leading: Image.asset("assets/images/mine.png", width: 40),
+                  ),
+                ),
+                SizedBox(height: 2.0),
+                Container(
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(8.0),
+                    border: Border.all(
+                      color: Colors.black,
+                    ),
+                  ),
+                  child: ListTile(
                     title: Text("깡통 2"),
-                    leading: Image.asset("assets/images/can.png", width: 40)),
-                ListTile(
-                    title: Text("지뢰 6"),
-                    leading: Image.asset("assets/images/mine.png", width: 40)),
-                ListTile(
-                    title: Text("지뢰 7"),
-                    leading: Image.asset("assets/images/mine.png", width: 40)),
+                    leading: Image.asset("assets/images/can.png", width: 40),
+                  ),
+                ),
               ],
             ),
           ),
