@@ -57,14 +57,14 @@ class MyHomePage extends StatelessWidget {
                     title: Text("지뢰 2"),
                     leading: Image.asset("assets/images/mine.png", width: 40)),
                 ListTile(
-                    title: Text("지뢰 3"),
-                    leading: Image.asset("assets/images/mine.png", width: 40)),
+                    title: Text("깡통 1"),
+                    leading: Image.asset("assets/images/can.png", width: 40)),
                 ListTile(
                     title: Text("지뢰 4"),
                     leading: Image.asset("assets/images/mine.png", width: 40)),
                 ListTile(
-                    title: Text("지뢰 5"),
-                    leading: Image.asset("assets/images/mine.png", width: 40)),
+                    title: Text("깡통 2"),
+                    leading: Image.asset("assets/images/can.png", width: 40)),
                 ListTile(
                     title: Text("지뢰 6"),
                     leading: Image.asset("assets/images/mine.png", width: 40)),
