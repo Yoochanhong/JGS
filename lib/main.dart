@@ -74,9 +74,15 @@ class MyHomePage extends StatelessWidget {
                     ),
                   ),
                   child: ListTile(
-                    title: Text(
-                      "지뢰 1                 385629",
-                      style: TextStyle(fontFamily: "NanumGothicCodeing"),
+                    title: Row(
+                      children: [
+                        Text(
+                          "지뢰 1                 385629",
+                          style: TextStyle(fontFamily: "NanumGothicCodeing"),
+                        ),
+                        SizedBox(width: 30),
+                        Icon(Icons.wifi),
+                      ],
                     ),
                     leading: Image.asset("assets/images/mine.png", width: 40),
                   ),
@@ -90,9 +96,15 @@ class MyHomePage extends StatelessWidget {
                     ),
                   ),
                   child: ListTile(
-                    title: Text(
-                      "지뢰 2                 346457",
-                      style: TextStyle(fontFamily: "NanumGothicCodeing"),
+                    title: Row(
+                      children: [
+                        Text(
+                          "지뢰 2                 346457",
+                          style: TextStyle(fontFamily: "NanumGothicCodeing"),
+                        ),
+                        SizedBox(width: 30),
+                        Icon(Icons.wifi),
+                      ],
                     ),
                     leading: Image.asset("assets/images/mine.png", width: 40),
                   ),
@@ -106,9 +118,15 @@ class MyHomePage extends StatelessWidget {
                     ),
                   ),
                   child: ListTile(
-                    title: Text(
-                      "깡통 1                 231424",
-                      style: TextStyle(fontFamily: "NanumGothicCodeing"),
+                    title: Row(
+                      children: [
+                        Text(
+                          "깡통 1                 231424",
+                          style: TextStyle(fontFamily: "NanumGothicCodeing"),
+                        ),
+                        SizedBox(width: 30),
+                        Icon(Icons.wifi),
+                      ],
                     ),
                     leading: Image.asset("assets/images/can.png", width: 40),
                   ),
@@ -122,9 +140,15 @@ class MyHomePage extends StatelessWidget {
                     ),
                   ),
                   child: ListTile(
-                    title: Text(
-                      "지뢰 3                 362396",
-                      style: TextStyle(fontFamily: "NanumGothicCodeing"),
+                    title: Row(
+                      children: [
+                        Text(
+                          "지뢰 3                 362396",
+                          style: TextStyle(fontFamily: "NanumGothicCodeing"),
+                        ),
+                        SizedBox(width: 30),
+                        Icon(Icons.wifi_off),
+                      ],
                     ),
                     leading: Image.asset("assets/images/mine.png", width: 40),
                   ),
@@ -138,9 +162,15 @@ class MyHomePage extends StatelessWidget {
                     ),
                   ),
                   child: ListTile(
-                    title: Text(
-                      "깡통 2                 265463",
-                      style: TextStyle(fontFamily: "NanumGothicCodeing"),
+                    title: Row(
+                      children: [
+                        Text(
+                          "깡통 2                 265463",
+                          style: TextStyle(fontFamily: "NanumGothicCodeing"),
+                        ),
+                        SizedBox(width: 30),
+                        Icon(Icons.wifi),
+                      ],
                     ),
                     leading: Image.asset("assets/images/can.png", width: 40),
                   ),
