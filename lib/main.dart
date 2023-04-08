@@ -74,7 +74,10 @@ class MyHomePage extends StatelessWidget {
                     ),
                   ),
                   child: ListTile(
-                    title: Text("지뢰 1                               385629"),
+                    title: Text(
+                      "지뢰 1                 385629",
+                      style: TextStyle(fontFamily: "NanumGothicCodeing"),
+                    ),
                     leading: Image.asset("assets/images/mine.png", width: 40),
                   ),
                 ),
@@ -87,7 +90,10 @@ class MyHomePage extends StatelessWidget {
                     ),
                   ),
                   child: ListTile(
-                    title: Text("지뢰 2                              346457"),
+                    title: Text(
+                      "지뢰 2                 346457",
+                      style: TextStyle(fontFamily: "NanumGothicCodeing"),
+                    ),
                     leading: Image.asset("assets/images/mine.png", width: 40),
                   ),
                 ),
@@ -100,7 +106,10 @@ class MyHomePage extends StatelessWidget {
                     ),
                   ),
                   child: ListTile(
-                    title: Text("깡통 1                               231424"),
+                    title: Text(
+                      "깡통 1                 231424",
+                      style: TextStyle(fontFamily: "NanumGothicCodeing"),
+                    ),
                     leading: Image.asset("assets/images/can.png", width: 40),
                   ),
                 ),
@@ -113,7 +122,10 @@ class MyHomePage extends StatelessWidget {
                     ),
                   ),
                   child: ListTile(
-                    title: Text("지뢰 3                              362396"),
+                    title: Text(
+                      "지뢰 3                 362396",
+                      style: TextStyle(fontFamily: "NanumGothicCodeing"),
+                    ),
                     leading: Image.asset("assets/images/mine.png", width: 40),
                   ),
                 ),
@@ -126,7 +138,10 @@ class MyHomePage extends StatelessWidget {
                     ),
                   ),
                   child: ListTile(
-                    title: Text("깡통 2                              265463"),
+                    title: Text(
+                      "깡통 2                 265463",
+                      style: TextStyle(fontFamily: "NanumGothicCodeing"),
+                    ),
                     leading: Image.asset("assets/images/can.png", width: 40),
                   ),
                 ),
